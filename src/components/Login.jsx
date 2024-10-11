@@ -16,7 +16,7 @@ function Login() {
     };
 
     return (
-        <div className="login template d-flex justify-content-center align-items-center 100-w vh-100 bg-white"> 
+        <div className="login template d-flex justify-content-center 100-w vh-100 bg-white"> 
         <div className="form_container p-5 rounded bg-white">
             <h2 className="text-center">Acceder</h2>
             <form onSubmit={handleSubmit}>

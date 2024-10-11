@@ -19,7 +19,7 @@ function Register() {
     };
 
     return (
-        <div className="login template d-flex justify-content-center align-items-center 100-w vh-100 bg-secondary"> 
+        <div className="login template d-flex justify-content-center 100-w vh-100 bg-white"> 
         <div className="form_container p-5 rounded bg-white">
             <h2 className="text-center">Crear una cuenta nueva</h2>
             <form onSubmit={handleSubmit}>
@@ -57,7 +57,7 @@ function Register() {
                     <input type="date" id="start" name="trip-start" placeholder="2002-10-19" min="1970-01-01" max="2002-12-31" className="form-control" value={fnacimiento} onChange={(e) => setFNacimiento(e.target.value)} required />
                 </div>
 
-                <button type="submit" className="btn btn-primary w-100">Registrar</button>
+                <button type="submit" className="btn btn-secondary w-100">Registrar</button>
             </form>
             
         </div>
